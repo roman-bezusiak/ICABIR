@@ -15,12 +15,13 @@ trainImgFolder = fullfile();
 testImgFolder = fullfile();
 ```
 
-"trainImgFolder" should point to ".../Datasets/Train"
-"testImgFolder" should point to ".../Datasets/Test"
-
-"Datasets" folder is optional 
-
 Reference on how to use "fullfile()": [MathWorks fullfile() documentation](https://se.mathworks.com/help/matlab/ref/fullfile.html)
+
+### Remarks
+
+1. "trainImgFolder" should point to ".../Datasets/Train"
+2. "testImgFolder" should point to ".../Datasets/Test"
+3. "Datasets" folder is optional 
 
 ## Installation instructions
 
