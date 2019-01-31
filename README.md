@@ -58,7 +58,7 @@ Reference on how to use "fullfile()": [MathWorks fullfile() documentation](https
 - **img** ( **_ _** )
 	- correct_classification_result_ex.jpg
 	- wrong_classification_result_ex.jpg
-	- 
+	- layer_structure.png
 - **ICABIR.m**
 - **README.md**
 
@@ -81,5 +81,5 @@ None
 - **[]()**
 
 ### Used work:
-- **Deep Learning Toolbox** - Base of the project - [chartjs.org](http://www.chartjs.org/)
-- **mnist-csv-png** - Fashion-MNIST dataset convertion script - [jquery.com](https://jquery.com/)
+- **Deep Learning Toolbox** - Base of the project - [mathworks.com](https://se.mathworks.com/products/deep-learning.html)
+- **mnist-csv-png** - Fashion-MNIST dataset convertion script - [github.com](https://github.com/pjreddie/mnist-csv-png)
