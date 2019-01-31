@@ -53,7 +53,16 @@ Reference on how to use "fullfile()": [MathWorks fullfile() documentation](https
 
 ## File manifest
 
-### List:
+### List
+
+- **img** ( **_ _** )
+	- correct_classification_result_ex.jpg
+	- wrong_classification_result_ex.jpg
+	- 
+- **ICABIR.m**
+- **README.md**
+
+#### Total: **_ _** files
 
 ## Known bugs, problems and troubleshooting
 
@@ -69,11 +78,8 @@ None
 - **[Wikimedia Foundation Inc.](https://wikimediafoundation.org/wiki/Home), 
 	Wikipedia** - _Encyclopedia materials_ - 
 	[wikipedia.org](https://www.wikipedia.org/)
+- **[]()**
 
-### Used third party libraries:
-- **Chart.js**    - _Graph drawing on the web site_ - 
-	[chartjs.org](http://www.chartjs.org/)
-- **jQuery.js**   - _AJAX_ - [jquery.com](https://jquery.com/)
-- **curl/curl.h** - _Data transmission from the 
-	[RPi](https://en.wikipedia.org/wiki/Raspberry_Pi) to the server_ - 
-	[curl.haxx.se](https://curl.haxx.se/)
+### Used work:
+- **Deep Learning Toolbox** - Base of the project - [chartjs.org](http://www.chartjs.org/)
+- **mnist-csv-png** - Fashion-MNIST dataset convertion script - [jquery.com](https://jquery.com/)
