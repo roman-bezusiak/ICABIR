@@ -15,7 +15,7 @@ trainImgFolder = fullfile();
 testImgFolder = fullfile();
 ```
 
-Reference on how to use "fullfile()": [MathWorks fullfile() documentation](https://se.mathworks.com/help/matlab/ref/fullfile.html)
+Reference on how to use "fullfile()": [**MathWorks fullfile() documentation**](https://se.mathworks.com/help/matlab/ref/fullfile.html)
 
 ### Remarks
 
@@ -36,17 +36,17 @@ Reference on how to use "fullfile()": [MathWorks fullfile() documentation](https
 1. User calls the ICABIR(x) function, while passing a singular integer value x, between 0 and 9 inclusively, which represents the object, NN should classify
 
 Index | Object
------ | -----------
-    0 | T-shirt/top
-    1 | Trouser
-    2 | Pullover
-    3 | Dress
-    4 | Coat
-    5 | Sandal
-    6 | Shirt
-    7 | Sneaker
-    8 | Bag
-    9 | Ankle boot
+----- | ------
+0 | T-shirt/top
+1 | Trouser
+2 | Pullover
+3 | Dress
+4 | Coat
+5 | Sandal
+6 | Shirt
+7 | Sneaker
+8 | Bag
+9 | Ankle boot
 
 2. Importing layers of a convolutional neural network from digitsDAGnet.h5 modelfile. Layer structure is shown on ![Layer structure](img/layer_structure.png)
 
@@ -63,14 +63,11 @@ Index | Object
 8.	Preparing the output figure data
 9.	Showing the output figure
 
-If NN has properly classified the image,      | If NN has not properly classified the image, 
-output figure title labels should be the same | output figure title labels should be different
---------------------------------------------- | ----------------------------------------------
+If NN has properly classified the image, output figure title labels should be the same | If NN has not properly classified the image, output figure title labels should be different
+-------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------
 ![Correct result](img/correct_classification_result_ex.jpg) | ![Incorrect result](img/incorrect_classification_result_ex.jpg)
 
 ## File manifest
-
-### List
 
 - _img_ ( **_3_** )
 	- correct_classification_result_ex.jpg
@@ -80,13 +77,13 @@ output figure title labels should be the same | output figure title labels shoul
 - README.md
 - LICENCE
 
-#### Total: **_6_** files
+### Total: **_6_** files
 
 ## Copyright and licensing information
 
 This project is licensed under the 
 [****](). 
-See the [_LICENSE_](LICENSE) file for details
+See the [**_LICENSE_**](LICENSE) file for details
 
 ## Known bugs, problems and troubleshooting
 
