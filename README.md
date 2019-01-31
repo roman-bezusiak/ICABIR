@@ -26,7 +26,7 @@ Reference on how to use "fullfile()": [**MathWorks fullfile() documentation**](h
 ## Installation instructions
 
 1. Install the [**_ICABIR.m_**](ICABIR.m)
-2. Install the Fashion-MNIST dataset in .jpeg format from [**Dropbox**](https://www.dropbox.com/s/3sddmn90pf50zi6/Datasets.zip?dl=0)
+2. Install the Fashion-MNIST dataset zipped .jpeg images from [**Dropbox**](https://www.dropbox.com/s/3sddmn90pf50zi6/Datasets.zip?dl=0)
 3. Unzip the dataset
 
 ## Operating instructions
@@ -48,7 +48,9 @@ Index | Object
 8 | Bag
 9 | Ankle boot
 
-2. Importing layers of a convolutional neural network from digitsDAGnet.h5 modelfile. Layer structure is shown on ![Layer structure](img/layer_structure.png)
+2. Importing layers of a convolutional neural network from digitsDAGnet.h5 modelfile. Layer structure is shown on the following picture
+
+![Layer structure](img/layer_structure.png)
 
 3.	Creating an ImageDatastore object, which automatically labels the images based on names of the folders, they are in. An image datastore allows to store large image data, including data that does not fit in memory, and efficiently read batches of images during training of a convolutional neural network
 
@@ -119,16 +121,14 @@ Follow [**Configuration instructions**](https://github.com/roman-bezusiak/ICABIR
 ## Credits and acknowledgments
 
 ### Authors:
-- **Roman Bezusiak** - _Initial work_ - 
-	[github.com](https://github.com/roman-bezusiak)
+- **Roman Bezusiak** - _Initial work_ - [github.com](https://github.com/roman-bezusiak)
 
 ### Used resources:
-- **[Wikimedia Foundation Inc.](https://wikimediafoundation.org/wiki/Home), 
-	Wikipedia** - _Encyclopedia materials_ - 
-	[wikipedia.org](https://www.wikipedia.org/)
+- **[Wikimedia Foundation Inc.](https://wikimediafoundation.org/wiki/Home), Wikipedia** - _Encyclopedia materials_ - [wikipedia.org](https://www.wikipedia.org/)
 - **[Mathworks Inc.](https://se.mathworks.com/), Mathworks** - _MATLAB Documentation_ - [mathworks.com](https://se.mathworks.com/help/)
 - **Fashion-MNIST** - _Fashion-MNIST dataset_ - [github.com](https://github.com/zalandoresearch/fashion-mnist)
 
 ### Used code:
 - **Deep Learning Toolbox** - _Base of the project_ - [mathworks.com](https://se.mathworks.com/products/deep-learning.html)
+- **Importing TensorFlow-Keras models** - _Self-explanatory_ -[mathworks.com](https://se.mathworks.com/matlabcentral/fileexchange/64649-deep-learning-toolbox-importer-for-tensorflow-keras-models)
 - **mnist-csv-png** - _Fashion-MNIST dataset convertion script_ - [github.com](https://github.com/pjreddie/mnist-csv-png)
