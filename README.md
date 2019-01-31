@@ -26,7 +26,7 @@ Reference on how to use "fullfile()": [**MathWorks fullfile() documentation**](h
 ## Installation instructions
 
 1. Install the [**_ICABIR.m_**](ICABIR.m)
-2. Install the [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset zipped .jpeg images from [**Dropbox**](https://www.dropbox.com/s/3sddmn90pf50zi6/Datasets.zip?dl=0)
+2. Install the [**Fashion-MNIST**](https://github.com/zalandoresearch/fashion-mnist) dataset zipped .jpeg images from [**Dropbox**](https://www.dropbox.com/s/3sddmn90pf50zi6/Datasets.zip?dl=0)
 3. Unzip the dataset
 
 ## Operating instructions
@@ -57,7 +57,7 @@ Index | Object
 4.	Choosing a random image of a label x in the folder, denoted by testImgFolder, which NN has not “seen” before
 
 5.	Initializing the NN training options as:
-    - **sgdm** – Stochastic Gradient Descent with Momentum algorithm
+    - **sgdm** – [**Stochastic Gradient Descent with Momentum algorithm**](https://en.wikipedia.org/wiki/Stochastic_gradient_descent)
     - **MaxEpochs** – maximum amount of elapsing epochs, while network will be training itself; limited in order to prevent overfitting
     - **InitialLearnRate** – initial learning rate of the NN
 6.	Training the NN with the train data set, and saving its data to the NN object
