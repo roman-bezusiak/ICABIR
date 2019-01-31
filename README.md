@@ -2,6 +2,12 @@
 
 ICABIR - Identification of Clothes and Accessories Based on Image Recognition
 
+## Installation instructions
+
+1. Install the [**_ICABIR.m_**](ICABIR.m)
+2. Install the [**Fashion-MNIST**](https://github.com/zalandoresearch/fashion-mnist) dataset zipped .jpeg images from [**Dropbox**](https://www.dropbox.com/s/3sddmn90pf50zi6/Datasets.zip?dl=0)
+3. Unzip the dataset
+
 ## Configuration instructions
 
 In [**_ICABIR.m_**](ICABIR.m) file one should modify the lines to set the full path to the unzipped datasets:
@@ -22,12 +28,6 @@ Reference on how to use "fullfile()": [**MathWorks fullfile() documentation**](h
 1. **trainImgFolder** variable should point to ".../Datasets/Train"
 2. **testImgFolder** variable should point to ".../Datasets/Test"
 3. **Datasets** folder is optional
-
-## Installation instructions
-
-1. Install the [**_ICABIR.m_**](ICABIR.m)
-2. Install the [**Fashion-MNIST**](https://github.com/zalandoresearch/fashion-mnist) dataset zipped .jpeg images from [**Dropbox**](https://www.dropbox.com/s/3sddmn90pf50zi6/Datasets.zip?dl=0)
-3. Unzip the dataset
 
 ## Operating instructions
 
