@@ -12,7 +12,7 @@ ICABIR - Identification of Clothes and Accessories Based on Image Recognition
 
 In [**_ICABIR.m_**](ICABIR.m) file one should modify the lines to set the full path to the unzipped datasets:
 
-```
+```m
 %% Getting the data
 % Full path of train images data set folder (subject to change)
 trainImgFolder = fullfile();
