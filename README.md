@@ -104,7 +104,7 @@ Install [**Deep Learning Toolbox**](https://se.mathworks.com/products/deep-learn
 	
 The following lines were not changed upon configuration
 
-```
+```matlab
 %% Getting the data
 % Full path of train images data set folder (subject to change)
 trainImgFolder = fullfile();
