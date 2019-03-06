@@ -2,13 +2,13 @@
 
 ICABIR - Identification of Clothes and Accessories Based on Image Recognition
 
-## Installation instructions
+## 📥 Installation instructions
 
 1. Install the [**_ICABIR.m_**](ICABIR.m)
 2. Install the [**Fashion-MNIST**](https://github.com/zalandoresearch/fashion-mnist) dataset zipped .jpeg images from [**Dropbox**](https://www.dropbox.com/s/3sddmn90pf50zi6/Datasets.zip?dl=0)
 3. Unzip the dataset
 
-## Configuration instructions
+## 🛠 Configuration instructions
 
 In [**_ICABIR.m_**](ICABIR.m) file one should modify the lines to set the full path to the unzipped datasets:
 
@@ -29,7 +29,7 @@ Reference on how to use "fullfile()": [**MathWorks fullfile() documentation**](h
 2. **testImgFolder** variable should point to ".../Datasets/Test"
 3. **Datasets** folder is optional
 
-## Operating instructions
+## ⚙️ Operating instructions
 
 ### Algorithm
 
@@ -69,7 +69,7 @@ If NN has properly classified the image, output figure title labels should be th
 -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------
 ![Correct result](img/correct_classification_result_ex.jpg) | ![Incorrect result](img/incorrect_classification_result_ex.jpg)
 
-## File manifest
+## 🗃 File manifest
 
 - _img_ ( **_3_** )
 	- correct_classification_result_ex.jpg
@@ -81,12 +81,12 @@ If NN has properly classified the image, output figure title labels should be th
 
 ### Total: **_6_** files
 
-## Copyright and licensing information
+## ⚖️ Copyright and licensing information
 
 This project is licensed under the [**MIT Licence**](https://en.wikipedia.org/wiki/MIT_License). 
 See the [**_LICENSE_**](LICENSE) file for details
 
-## Known bugs, problems and troubleshooting
+## ⚠️ Known bugs, problems and troubleshooting
 
 ### "_The program does not run, because some functions do not exist_"
 
@@ -117,7 +117,7 @@ testImgFolder = fullfile();
 
 Follow [**Configuration instructions**](https://github.com/roman-bezusiak/ICABIR#configuration-instructions)
 
-## Credits and acknowledgments
+## 👏 Credits and acknowledgments
 
 ### Authors:
 - **Roman Bezusiak** - _Initial work_ - [github.com](https://github.com/roman-bezusiak)
