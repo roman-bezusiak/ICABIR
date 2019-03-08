@@ -5,7 +5,7 @@ ICABIR - Identification of Clothes and Accessories Based on Image Recognition
 ## 📥 Installation instructions
 
 1. Install the [**_ICABIR.m_**](ICABIR.m)
-2. Install the [**Fashion-MNIST**](https://github.com/zalandoresearch/fashion-mnist) dataset zipped .jpeg images from [**Dropbox**](https://www.dropbox.com/s/3sddmn90pf50zi6/Datasets.zip?dl=0)
+2. Install the [**Fashion-MNIST**](https://github.com/zalandoresearch/fashion-mnist) dataset zipped .jpeg images from [**Dropbox link**](https://www.dropbox.com/s/3sddmn90pf50zi6/Datasets.zip?dl=0)
 3. Unzip the dataset
 
 ## 🛠 Configuration instructions
